@@ -59,6 +59,16 @@ class S {
       args: [],
     );
   }
+
+  /// `pingpang`
+  String get hobby {
+    return Intl.message(
+      'pingpang',
+      name: 'hobby',
+      desc: '',
+      args: [],
+    );
+  }
 }
 
 class AppLocalizationDelegate extends LocalizationsDelegate<S> {
