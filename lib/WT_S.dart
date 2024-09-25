@@ -20,5 +20,11 @@ class WT_S {
     }, setDefaultLocale: true);
   }
 
-  static const AppLocalizationDelegate delegate = AppLocalizationDelegate();
+  static const WTAppLocalizationDelegate delegate = WTAppLocalizationDelegate();
+}
+
+class WTAppLocalizationDelegate extends AppLocalizationDelegate {
+  const WTAppLocalizationDelegate();
+  @override
+  Future<S> load(Locale locale) => WT_S.load(locale);
 }
