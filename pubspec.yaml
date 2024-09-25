@@ -16,6 +16,7 @@ dependencies:
   flutter_localizations:
     sdk: flutter
   intl_utils: ^2.8.5
+  multiple_localization: ^0.5.0
 
 dev_dependencies:
   flutter_test:
