@@ -1,7 +1,7 @@
 import 'package:multiple_localization/multiple_localization.dart';
 
-import '../generated/intl/messages_all.dart';
-import '../generated/l10n.dart';
+import 'generated/intl/messages_all.dart';
+import 'generated/l10n.dart';
 import 'package:flutter/material.dart';
 class WT_S {
   static S? _current;
